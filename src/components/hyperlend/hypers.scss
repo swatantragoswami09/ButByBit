@@ -1,0 +1,122 @@
+.supp-content {
+  display: flex;
+  // justify-content: center;
+  align-items: center;
+}
+
+.icon-box {
+  // background: ;
+}
+
+.suppot-title {
+  color: #d0d4de;
+  font-size: 16px;
+  padding-right: 2rem;
+}
+
+.support-block {
+  background: #00000059;
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.lend-bullet {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.learnbtn{
+  margin-top: 2rem !important;
+}
+
+.last-audit {
+  margin-bottom: 5rem !important;
+  text-align: center;
+}
+.Coming-soon{
+  font-family: PlusjakartaSans !important;
+  font-size: 0.9rem !important;
+}
+.title-foot {
+  font-family: PlusjakartaSans_bold;
+  font-size: 2rem;
+  
+}
+
+.bullets-box {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(54px);
+  border-radius: 20px;
+  /* Note: backdrop-filter has minimal browser support */
+  width: 100px;
+  background-size: cover;
+  padding: 3rem 2rem;
+  margin: 2rem 0 !important;
+}
+@media screen and (min-width: 200px) and (max-width: 650px) {
+.lend-bullet{
+  padding-left: 17px;
+  font-size: 13px;
+  }
+
+  .suppot-title {
+    font-size: 14px;
+}
+.top-lend{
+  text-align: center !important;
+}
+.margin-content{
+  padding: unset;
+  margin: unset;
+  position: relative;
+  bottom: 70px;
+}
+.lend-footer{
+  text-align: center;
+}
+}
+
+.align-content{
+  text-align: center;
+}
+
+.desc-feature-font{
+  margin: 30px 0;
+}
+
+.lend-title{
+  height: 60px;
+}
+
+.card-lend-view{
+  color: #d0d4de;
+  background: #182835;
+  padding: 0 2rem !important;
+  border-radius: 20px;
+  height: fit-content;
+  margin: 10px !important;
+  height: 230px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: PlusjakartaSans !important;
+}
+
+.supprt-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.last-audit{
+  text-align: start;
+}
+
+.btn-custom{
+  margin: 20px 0 !important;
+}
+
+.lend-space-all{
+  margin: 50px 0 !important;
+}

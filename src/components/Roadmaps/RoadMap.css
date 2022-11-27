@@ -1,0 +1,212 @@
+.roadContainer {
+    display: grid;
+    grid-template-columns: 30% 40% 30%;;
+    justify-content: center;
+    margin: 4rem 0 8rem 0 !important;
+}
+
+.imageGrid {
+    display: grid;
+    justify-content: center;
+}
+
+.overlap {
+    position: absolute;
+    display: flex;
+}
+
+.leftSide {
+    display: grid;
+    justify-content: flex-end;
+    position: relative;
+    top: 8rem;
+    padding-right: 2rem;
+    margin-bottom: 6rem;
+}
+
+.rightSide {
+    display: grid;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 1rem;
+
+}
+
+.showPosition {
+    position: relative;
+    right: 3rem;
+}
+
+.showTabposition {
+    position: relative;
+    left: 2rem;
+    top: 2rem;
+}
+
+.boxView {
+    color: #D0D4DE;
+    background: #182835;
+    padding: 1rem 2rem;
+    border-radius: 20px;
+    height: fit-content;
+
+}
+
+.boxView div:first-child {
+    color: #99F8D0;
+    display: flex;
+    align-items: center;
+}
+
+.boxView>div {
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+.MiddleOne {
+    position: relative;
+    top: 5px !important;
+    right: 400px;
+
+}
+
+.showRightTab {
+    margin-top: 6rem;
+}
+
+.ellipseImg {
+    width: 2rem;
+}
+
+@media only screen and (max-width:1280px) {
+    .roadContainer {
+        margin: 4rem 0 13rem 0 !important;
+    }
+
+    .boxView>div {
+        font-size: 0.5rem;
+    }
+
+    .boxView {
+        padding: 1px !important;
+
+    }
+
+    .MiddleOne {
+        position: relative;
+        right: 386px;
+        width: 57% !important;
+        top: 0px !important;
+    }
+
+    .roadImage {
+        width: 65% !important;
+    }
+
+    .boxView {
+        padding: 10px 15px !important;
+    }
+
+
+    .showPosition {
+        position: relative;
+        left: 0px !important;
+
+        left: 40px;
+    }
+
+    .ellipseImg {
+        width: 18px !important;
+    }
+
+    .leftSide {
+        padding-right: 2rem;
+    }
+
+    .boxView {}
+}
+
+
+@media only screen and (min-width:768px) and (max-width: 1000px) {
+    .rightSide {
+        position: relative !important;
+        left: 1rem !important;
+    }
+
+    .showTabposition {
+        position: relative !important;
+        top: 6rem !important;
+        left: 5rem !important;
+    }
+
+    .roadContainer {
+        display: grid;
+        grid-template-columns: 22% 40% 30%;
+        justify-content: center;
+        margin: 4rem 0 8rem 0;
+    }
+
+    .showRightTab {
+        position: relative !important;
+        top: 6rem !important;
+    }
+
+    .leftSide {
+        padding-right: 1rem;
+    }
+}
+
+.containers {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .containers .image1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  /* size of second image */
+  .containers .image1>img {
+    width: 100px;
+  }
+  
+  .containers .image2 {
+    width: 87%;
+  }
+
+  @media screen and (min-width: 200px) and (max-width: 650px) {
+    .boxView{
+        padding: 10px !important;
+    }
+    .showTabposition{
+        position: relative;
+    left: 0px;
+    top: -22px;
+    }
+    .boxView>div{
+        margin-bottom: 7px;
+    }
+    .showPosition {
+        position: relative;
+        left: -19px !important;
+        bottom: 40px;
+    }
+    .showrighttop{
+        position: relative;
+    bottom: 85px;
+    }
+
+    .showRightTab{
+        position: relative;
+        bottom: 25px;
+        margin-top: 0px;
+    }
+  }

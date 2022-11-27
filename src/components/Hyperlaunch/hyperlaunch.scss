@@ -1,0 +1,484 @@
+.cmspages-wrapper {
+  float: left;
+  width: 100%;
+  .hyperlaunchbanner {
+    float: left;
+    width: 100%;
+    height: 100vh;
+    background-image: url("../../img/hyperaunch-hero.png"),
+      url("../../img/hyperaunch-bg.png");
+    background-position: 88% 75%, center center;
+    background-repeat: no-repeat, no-repeat;
+    background-size: auto, cover;
+    .bannerlaunchinfo {
+      float: left;
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      h2 {
+        font-size: 82px;
+        font-weight: bold;
+        color: #ffffff;
+        margin-bottom: 1rem;
+      }
+      p {
+        font-size: 29px;
+        color: #ffffff;
+      }
+
+      @media (max-width: 500px) {
+        h2 {
+          font-size: 50px;
+        }
+      }
+    }
+  }
+  .hyperlaunchinfo {
+    float: left;
+    width: 100%;
+    background: #180659;
+    padding: 4rem 0;
+    .financeintroduces {
+      float: left;
+      width: 100%;
+      margin: 0px 0px 4rem 0px;
+      // .hyperlaunchinfoimg {
+      //   img {
+      //   }
+      // }
+      .hyperlaunchinfotext {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        h2 {
+          float: left;
+          width: 100%;
+          font-size: 41px;
+          line-height: 50px;
+          margin-bottom: 0.6rem;
+          color: #ffffff;
+        }
+        h6 {
+          font-size: 22px;
+          line-height: 27px;
+          color: #ffffff;
+          span {
+            margin-left: 5px;
+          }
+        }
+        p {
+          font-size: 18px;
+          line-height: 22px;
+          color: #ffffff;
+          width: 75%;
+          line-height: 25px;
+          margin-top: 2rem;
+        }
+
+        @media (max-width: 500px) {
+          p {
+            margin-left: 2rem;
+          }
+        }
+      }
+    }
+
+    .throughthyperlaunch {
+      float: left;
+      width: 100%;
+      height: 500px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      background-position: right center;
+      background: url("../../img/abouthyperlaunch.png") no-repeat,
+        linear-gradient(
+          to right bottom,
+          #13e3fa,
+          #6e52de,
+          #6842ce,
+          #612eba,
+          #4e0088,
+          #49007f,
+          #4e0088,
+          #430078,
+          #3b006c,
+          #330060,
+          #2b0054,
+          #240049
+        );
+      background-size: cover;
+      margin-bottom: 2rem;
+      border-radius: 10px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      .launchmetaverse {
+        padding: 2rem 2rem 2rem 4rem;
+
+        @media (max-width: 500px) {
+           
+            padding: 2rem;
+          }
+        p {
+          font-size: 19px;
+          line-height: 25px;
+          color: #ffffff;
+          strong {
+            font-weight: bold;
+          }
+        }
+        h2 {
+          font-size: 40px;
+          color: #ffffff;
+          font-weight: bold;
+          margin: 3rem 0 0 0;
+        }
+
+        @media (max-width: 500px) {
+          
+          h2 {
+            margin: 1rem 0 0 0;
+            font-size: 35px;
+          }
+       
+        }
+      }
+    }
+    .addfunctionality {
+      float: left;
+      width: 100%;
+      margin-top: 6rem;
+      height: 483px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background: url("../../img/circlebgimgses.png") no-repeat,
+        linear-gradient(
+          to right bottom,
+          #13e3fa,
+          #6e52de,
+          #6842ce,
+          #612eba,
+          #4e0088,
+          #49007f,
+          #4e0088,
+          #430078,
+          #3b006c,
+          #330060,
+          #2b0054,
+          #240049
+        );
+      border-radius: 8px;
+      background-position: center center;
+      background-attachment: fixed;
+      background-size: cover;
+      .functionalitytext {
+        float: left;
+        width: 100%;
+        h2 {
+          font-size: 36px;
+          font-weight: bold;
+          margin-bottom: 3rem;
+          line-height: 45px;
+          color: #ffffff;
+          width: 50%;
+        }
+        .learnmorebtn {
+          min-width: 180px;
+          height: 45px;
+          border-radius: 30px;
+          -webkit-border-radius: 30px;
+          -moz-border-radius: 30px;
+          border: medium none;
+          background: #212121;
+          text-align: center;
+          font-size: 14px;
+          color: #ffffff;
+        }
+        @media (max-width: 500px) {
+          h2 {
+            margin-bottom: 0rem;
+            font-size: 34px;
+          }
+        }
+      }
+    }
+    .ourpartnerlaunch {
+      float: left;
+      width: 100%;
+      h2 {
+        font-size: 41px;
+        color: #ffffff;
+        text-align: center;
+        margin: 3rem 0 0 0;
+      }
+      .partnerlaunchmask {
+        float: left;
+        width: 100%;
+        height: 200px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        .partnerlaunchcards {
+          float: left;
+          width: 18%;
+          text-align: center;
+          img {
+            width: 80%;
+          }
+        }
+      }
+    }
+    .towitnesslaunch {
+      float: left;
+      width: 100%;
+      margin-top: 6rem;
+      height: 483px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background: url("../../img/meta_space.png") no-repeat;
+      border-radius: 8px;
+      background-position: center center;
+      background-attachment: fixed;
+      background-size: cover;
+      .functionalitytext {
+        float: left;
+        width: 100%;
+        h2 {
+          font-size: 36px;
+          font-weight: bold;
+          margin-bottom: 3rem;
+          line-height: 45px;
+          color: #ffffff;
+          width: 50%;
+        }
+        .learnmorebtn {
+          min-width: 180px;
+          height: 45px;
+          border-radius: 30px;
+          -webkit-border-radius: 30px;
+          -moz-border-radius: 30px;
+          border: medium none;
+          background: #212121;
+          text-align: center;
+          font-size: 14px;
+          color: #ffffff;
+        }
+      }
+    }
+  }
+  .makeimpactwrapper {
+    float: left;
+    width: 100%;
+    padding: 3rem 0;
+    h2 {
+      font-size: 41px;
+      color: #ffffff;
+      text-align: center;
+      margin: 1rem 0;
+    }
+    .impactcardsmask {
+      float: left;
+      width: 100%;
+      margin-top: 2rem;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      .impactcards {
+        float: left;
+        width: 19%;
+        position: relative;
+        background: #87f2e7;
+        padding: 1.5rem 1rem;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        // .articalone{
+        //     float: left;
+        //     width: 100%;
+        //     height: 185px;
+        //     background:url('../../img/technicalsupport.svg') no-repeat;
+        //     background-position: center center;
+        // }
+        // .articaltwo{
+        //     float: left;
+        //     width: 100%;
+        //     height: 185px;
+        //     background:url('../../img/cross-chain.svg') no-repeat;
+        //     background-position: center center;
+        // }
+        // .articalthree{
+        //     float: left;
+        //     width: 100%;
+        //     height: 185px;
+        //     background:url('../../img/dual-farming.svg') no-repeat;
+        //     background-position: center center;
+        // }
+        // .articalfour{
+        //     float: left;
+        //     width: 100%;
+        //     height: 185px;
+        //     background:url('../../img/social-collaboration.svg') no-repeat;
+        //     background-position: center center;
+        // }
+        // .articalfive{
+        //     float: left;
+        //     width: 100%;
+        //     height: 185px;
+        //     background:url('../../img/revebue-structure.svg') no-repeat;
+        //     background-position: center center;
+        // }
+        // p{
+        //     float: left;
+        //     width: 67%;
+        //     font-size: 16px;
+        //     line-height: 20px;
+        //     color: #2b2d71;
+        //     font-weight: bold;
+        //     margin: 1rem 0px 0px 0px;
+        // }
+      }
+      @media (max-width: 768px) {
+        display: block;
+      }
+    }
+
+    .flip-card {
+      background-color: transparent;
+      width: 19%;
+      height: 300px;
+      perspective: 1000px; /* Remove this if you don't want the 3D effect */
+      &:hover {
+        cursor: pointer;
+      }
+      @media (max-width: 768px) {
+              
+        width: 100%;
+        margin-bottom: 10px;
+        }
+    }
+    img {
+      width: 300px;
+      height: 300px;
+    }
+    /* This container is needed to position the front and back side */
+    .flip-card-inner {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      transition: transform 0.8s;
+      transform-style: preserve-3d;
+    }
+
+    /* Do an horizontal flip when you move the mouse over the flip box container */
+    .flip-card:hover .flip-card-inner {
+      transform: rotateY(180deg);
+    }
+
+    /* Position the front and back side */
+    .flip-card-front,
+    .flip-card-back {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      backface-visibility: hidden;
+    }
+
+    /* Style the front side (fallback if image is missing) */
+    .flip-card-front {
+      background-color: #87f2e7;
+      color: black;
+      border-radius: 10px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+    }
+
+    /* Style the back side */
+    .flip-card-back {
+      background: linear-gradient(
+        to right bottom,
+        #13e3fa,
+        #6e52de,
+        #6842ce,
+        #612eba,
+        #4e0088,
+        #49007f,
+        #4e0088,
+        #430078,
+        #3b006c,
+        #330060,
+        #2b0054,
+        #240049
+      );
+      color: white;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 1rem 2rem;
+      font-size: 12.5px;
+      border: 2px solid #87f2e7;
+      transform: rotateY(180deg);
+      border-radius: 10px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+    }
+
+    .articalone {
+      float: left;
+      width: 100%;
+      height: 250px;
+      background: url("../../img/technicalsupport.svg") no-repeat;
+      background-position: center center;
+    }
+    .articaltwo {
+      float: left;
+      width: 100%;
+      height: 250px;
+      background: url("../../img/cross-chain.svg") no-repeat;
+      background-position: center center;
+    }
+    .articalthree {
+      float: left;
+      width: 100%;
+      height: 250px;
+      background: url("../../img/dual-farming.svg") no-repeat;
+      background-position: center center;
+    }
+    .articalfour {
+      float: left;
+      width: 100%;
+      height: 250px;
+      background: url("../../img/social-collaboration.svg") no-repeat;
+      background-position: center center;
+    }
+    .articalfive {
+      float: left;
+      width: 100%;
+      height: 250px;
+      background: url("../../img/revebue-structure.svg") no-repeat;
+      background-position: center center;
+    }
+    .articalfont {
+      float: left;
+      width: 58%;
+      font-size: 16px;
+      text-align: left;
+      line-height: 20px;
+      color: #2b2d71;
+      font-weight: bold;
+      margin: -0.5rem 0px 0px 1.5rem;
+    }
+  }
+}

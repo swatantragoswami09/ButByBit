@@ -1,0 +1,743 @@
+/**
+ * @file
+ * Countfigures styles
+ */
+ @import "../../css/variables";
+ @import "../../css/mixin";
+ 
+ .allinoneapp-wrapper {
+   @include sections;
+ 
+ 
+   .countsections {
+     float: left;
+     width: 100%;
+     height: 150px;
+     display: flex;
+     background: $background-primary;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     @include borderadius(10px);
+ 
+     p {
+       font-size: 20px;
+       color: $font-offwhite;
+       font-weight: normal;
+       margin-top: 0.3rem;
+       font-family: PlusjakartaSans;
+ 
+     }
+   }
+ 
+   .one {
+     background: $background-primary;
+   }
+ 
+   .two {
+     background: $background-darkblue;
+   }
+ 
+   .three {
+     background: $background-primary;
+   }
+ 
+   .four {
+     background: $background-darkblue url("../../img/background-top.png") no-repeat;
+     background-position: center;
+     background-size: 100%;
+ 
+     p {
+       font-size: 15px;
+       line-height: 20px;
+       margin-top: 0.7rem;
+       text-align: center;
+       font-weight: normal;
+       width: 50%;
+     }
+   }
+ }
+ 
+ .allInOneWrapper {
+   @media only screen and (max-width: 450px) {
+     margin-top: 3rem;
+ 
+     h3 {
+       font-size: 23px;
+     }
+ 
+     h1 {
+       font-size: 40px;
+     }
+   }
+ 
+   p {
+     font-weight: 400;
+     font-size: 18px;
+     line-height: 22px;
+     letter-spacing: 0.09em;
+     color: #ffffff;
+     font-family: PlusjakartaSans;
+ 
+   }
+ 
+   h3 {
+     font-style: normal;
+     font-weight: 400;
+     font-size: 36px;
+     line-height: 43px;
+     text-transform: capitalize;
+     color: #ffffff;
+     font-family: PlusjakartaSans;
+ 
+     @media only screen and (max-width: 450px) {
+       font-size: 23px;
+     }
+   }
+ 
+   h1 {
+     font-style: normal;
+     font-weight: 700;
+     font-size: 64px;
+     line-height: 77px;
+     letter-spacing: 0.02em;
+     color: #ffffff;
+     font-family: PlusjakartaSans;
+ 
+     @media only screen and (max-width: 450px) {
+       font-size: 40px;
+     }
+   }
+ 
+   span {
+     color: #30a6fc;
+     font-family: PlusjakartaSans;
+ 
+   }
+ }
+ 
+ @media only screen and (max-width: 450px) {
+   .some-vector-wrapper {
+     padding-left: 15px !important;
+   }
+ 
+ }
+ 
+ @media only screen and (max-width:1280px) {
+   .subContainers {
+    font-family: PlusjakartaSans !important;
+     top: 259px !important;
+   }
+ 
+   .topTitle {
+    font-family: PlusjakartaSans !important;
+     font-size: 45px !important;
+     color:  #D0D4DE;
+   }
+ 
+   .statement {
+    font-family: PlusjakartaSans !important;
+    color: #5D6774;
+    font-style: normal;
+    margin-top: 1rem !important;
+     font-size: 18px !important;
+     margin-bottom: 4.5rem !important;
+   }
+ 
+   .crossBtn {
+     width: 16rem !important;
+   }
+ 
+   .blockChainblock {
+     padding: 20px 0px !important;
+   }
+ 
+ }
+ 
+ .container {
+   background-image: url('../../assets/image/banner/backgroundImage.svg');
+ }
+ 
+ .topContent {
+   // height: 100vh;
+   // background-image: url("../../assets/image/banner/Animationlogo.svg");
+   background: transparent;
+ }
+ 
+ 
+ .topTitle {
+   color: white;
+   font-size: 45px;
+   font-family: PlusjakartaSans_bold !important;
+ }
+ 
+ 
+ .statement {
+   color: #5D6774;
+   font-size: 18px;
+   margin-top: 1rem;
+   font-family: PlusjakartaSans !important;
+   margin-bottom: 4rem !important;
+ }
+ 
+ .crossBtn {
+   margin-top: 3rem;
+   background: #4770FF;
+   color: white;
+   font-family: PlusjakartaSans !important;
+   padding: 1rem;
+   border-radius: 10px;
+   font-size: 1.5rem;
+   display: flex;
+   width: 17rem;
+   justify-content: space-around;
+   cursor: pointer;
+   box-shadow: -1px -20px 23px -3px #0a2480;
+   ;
+   font-family: PlusjakartaSans;
+ }
+ 
+ .addAnimation {
+   position: relative;
+   animation: mymove 3s;
+   animation-fill-mode: forwards;
+ }
+ 
+ .subContainers {
+   position: absolute;
+   top: 700px;
+ }
+ 
+ .leftHeadeline {
+  font-family: PlusjakartaSans !important;
+   color: white;
+   font-size: 1rem;
+ }
+ .numberhead{
+   font-size: 2rem !important;
+   font-family: PlusjakartaSans !important;
+ }
+ @keyframes mymove {
+   from {
+     left: -200px;
+   }
+ 
+   to {
+     left: 500px;
+   }
+ }
+ 
+ .blockChainblock {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background: linear-gradient(55.26deg,
+       rgba(255, 255, 255, 0.1) 28.98%,
+       rgba(135, 242, 231, 0.1) 81.29%);
+   backdrop-filter: blur(104px);
+   /* Note: backdrop-filter has minimal browser support */
+ 
+   border-radius: 20px;
+   padding: 50px 60px;
+   // position: absolute;
+   animation: mymoves 3s;
+   animation-fill-mode: forwards;
+   width: fix-content;
+ }
+ 
+ .eachColumn {
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+   border-right: 1px solid #99F8D0;
+   padding: 0 2rem;
+ }
+ 
+ .lastEachColumn {
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+   padding: 0 2rem;
+ }
+ 
+ .productionWrapper {
+   background: linear-gradient(60.37deg, rgba(255, 255, 255, 0.064) 31.29%, rgba(110, 250, 235, 0.2) 74.69%);
+   display: flex;
+   padding: 3rem;
+   border-radius: 10px;
+   width: 80%;
+ }
+ 
+ .productLeft {
+  //  width: 50%;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   justify-content: center;
+ }
+ 
+ .productRight {
+   padding: 1rem;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   justify-content: center;
+ }
+ 
+ .product-container {
+   display: flex;
+   flex-wrap: wrap;
+ }
+ 
+ .each-product {
+   margin: 10px;
+   background: #0C1120;
+   opacity: 0.9;
+   border: 1px solid #99F8D0;
+   box-shadow: -3px -9px 24px -9.5px #5DEEB1;
+   border-radius: 12px;
+   display: flex;
+   align-items: center;
+   cursor: pointer;
+   width: 30%;
+ }
+ 
+ .Headine1 {
+   font-family: PlusjakartaSans !important;
+   margin: 0.6rem 0;
+   font-weight: 500;
+   font-size: 2rem;
+
+   display: flex;
+   color: #D0D4DE;
+   margin-bottom: 2rem;
+ }
+ 
+ .Headline2 {
+   font-family: PlusjakartaSans !important;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 28px;
+   /* or 175% */
+   display: flex;
+   justify-content: flex-start;
+   align-items: flex-start;
+   color: #D0D4DE;
+ }
+ 
+ .security-container {
+   display: flex;
+   width: 80%;
+   padding: 2rem;
+   align-items: center;
+ }
+ 
+ .securityLeft {
+   display: flex;
+   flex-direction: column;
+ }
+ 
+ .dotLogo {
+   margin-right: 1rem;
+ }
+ 
+ @media only screen and (min-width:549px) {
+   .product-container {
+     display: flex !important;
+     justify-content: flex-start !important;
+   }
+ 
+   .each-product {
+     margin: 10px 5px;
+   }
+ }
+ 
+ @media screen and (min-width: 550px) and (max-width: 900px) {
+   .blockChainblock {
+     position: relative !important;
+     padding: 20px 13px;
+     left: 0px !important;
+     top: 70px;
+   }
+ 
+   .eachColumn {
+     padding: 0 1rem;
+   }
+ 
+   .Headine1 {
+     font-size: 1.6rem !important;
+     font-family: PlusjakartaSans !important;
+   }
+ 
+   .each-product {
+     width: 42% !important;
+     margin: 5px !important;
+   }
+ 
+   .numberhead {
+
+     font-size: 2rem !important;
+   }
+ 
+   .topTitle {
+     font-size: 2rem !important;
+   }
+ 
+   .statement {
+    font-family: PlusjakartaSans !important;
+     font-size: 0.5rem;
+     margin-top: 1rem !important;
+     margin-bottom: 4rem !important;
+   }
+ 
+   .crossBtn {
+     width: 10rem;
+     margin-top: 2rem;
+     // padding: 0.5rem;
+     font-size: 0.9rem;
+     box-shadow: -1px -11px 23px 5px #0a2480;
+   }
+ 
+   .subContainers {
+     position: absolute;
+     top: 150px !important;
+     left: 100px !important;
+   }
+ 
+   .productionWrapper {
+     padding: 2rem !important;
+   }
+ }
+ 
+ @media only screen and (min-width:901px) and (max-width: 999px) {
+   .statement {
+    font-family: PlusjakartaSans !important;
+     font-size: 1rem !important;
+     margin-top: 1rem !important;
+     margin-bottom: 4rem !important;
+   }
+ 
+   .numberhead {
+     font-size: 2rem !important;
+   }
+ 
+   .subContainers {
+ 
+     position: absolute;
+     top: 216px !important;
+     left: 100px !important;
+ 
+   }
+ 
+   .crossBtn {
+     margin-top: 2rem;
+     width: 15rem !important;
+   }
+ 
+   .cross-chain {
+     font-size: 1rem;
+   }
+ 
+   .blockChainblock {
+     
+     position: relative !important;
+     /* padding: 20px 13px; */
+     left: 9px !important;
+     top: 74px !important;
+ 
+   }
+ 
+   .Headine1,
+   .hyperTxt {
+     font-size: 1.6rem !important;
+     font-family: PlusjakartaSans !important;
+   }
+ 
+   .Headline2 {
+     font-size: 0.5rem !important;
+     font-family: PlusjakartaSans !important;
+   }
+ 
+   .each-product {
+     width: 40% !important;
+     margin: 5px !important;
+   }
+ 
+   .productRight {
+     padding: 2rem !important;
+   }
+ 
+   .securityLeft {
+     padding-left: 1rem !important;
+   }
+ 
+   .leftHeadeline {
+     width: unset !important;
+   }
+ }
+ 
+ @media only screen and (min-width:901) and (max-width: 1000px) {
+   .statement {
+    font-family: PlusjakartaSans !important;
+     font-size: 1rem !important;
+     margin-top: 1rem;
+     margin-bottom: 4rem !important;
+   }
+ 
+   .numberhead {
+     font-size: 2rem !important;
+   }
+ 
+   .subContainers {
+     position: absolute;
+     top: 216px !important;
+     left: 100px !important;
+   }
+ 
+   .crossBtn {
+     margin-top: 2rem;
+     width: 15rem !important;
+   }
+ 
+   .cross-chain {
+     font-size: 1rem;
+   }
+ 
+   .blockChainblock {
+     position: relative !important;
+     /* padding: 20px 13px; */
+     left: 9px !important;
+     top: 74px !important;
+ 
+   }
+ 
+   .Headine1 {
+     padding-left: 0rem !important;
+   }
+ 
+   .Headline2 {
+     padding-left: 0rem !important;
+   }
+ 
+   .productRight {
+     padding: 2rem !important;
+   }
+ 
+   .securityLeft {
+     padding-left: 1rem !important;
+   }
+ 
+   .leftHeadeline {
+     width: unset !important;
+   }
+ }
+ 
+ @media screen and (min-width: 1001px) and (max-width: 1200px) {
+   .blockChainblock {
+     position: relative !important;
+     padding: 20px 13px;
+     left: 0px !important;
+   }
+ 
+   .EachColumn {
+     padding-right: 1rem !important;
+   }
+ 
+   .numberhead {
+     font-size: 2rem !important;
+   }
+ 
+   .topTitle {
+     font-size: 2rem !important;
+   }
+ 
+   .statement {
+    font-family: PlusjakartaSans !important;
+     font-size: 0.8rem;
+     margin-top: 1rem;
+     margin-bottom: 4.5rem;
+   }
+ 
+   .crossBtn {
+     width: 10rem;
+     margin-top: 2rem;
+     padding: 0.6rem;
+     font-size: 0.9rem;
+     box-shadow: -1px -11px 23px 5px #0a2480;
+   }
+ 
+   .subContainers {
+     position: absolute;
+     top: 230px !important;
+     left: 200px !important;
+   }
+ }
+ 
+ @media screen and (min-width: 1201px) and (max-width: 1500px) {
+   .blockChainblock {
+     position: relative !important;
+     padding: 30px 13px;
+     left: 50px !important;
+   }
+ 
+   .EachColumn {
+     padding-right: 1rem !important;
+   }
+ 
+   .numberhead {
+     font-size: 2px !important;
+   }
+ 
+   .topTitle {
+     font-size: 2rem !important;
+   }
+ 
+   .statement {
+    font-family: PlusjakartaSans !important;
+     font-size: 1.2rem;
+     margin-top: 1rem;
+     margin-bottom: 4.5rem;
+   }
+ 
+   .crossBtn {
+     width: 13rem;
+     margin-top: 2rem;
+     padding: 1rem;
+     font-size: 1rem;
+     box-shadow: -1px -11px 23px 5px #0a2480;
+   }
+ 
+   .subContainers {
+     position: absolute;
+     top: 330px !important;
+     left: 200px !important;
+   }
+ }
+ 
+ @media screen and (min-width: 1501px) and (max-width: 2100px) {
+   .subContainers {
+     position: absolute;
+     top: 330px !important;
+     left: 300px !important;
+   }
+ }
+ 
+ @media screen and (min-width: 2101px) and (max-width: 2400px) {
+   .roadContainer {
+     display: grid !important;
+     grid-template-columns: 35% 18% 35% !important;
+   }
+ 
+ }
+
+ .land-top-container {
+  background: url("../../assets/image/Allinone/BackgroundNew.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 2rem;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.count-list {
+  background: linear-gradient(
+      55.26deg,
+      rgba(255, 255, 255, 0.1) 28.98%,
+      rgba(135, 242, 231, 0.1) 81.29%
+    ),
+    linear-gradient(
+      72.95deg,
+      rgba(255, 255, 255, 0.08) 41.48%,
+      rgba(255, 255, 255, 0.05) 111.52%
+    );
+    border-radius: 20px;
+    padding: 2rem !important; 
+}
+
+.count-cards{
+    // margin: 1rem;
+    text-align: center;
+    // height: 50px;
+}
+
+.border-card{
+    border-right: 1px solid #99F8D0;
+    // line-height: 15px;
+}
+
+.count-number{
+  font-family: PlusjakartaSans_bold !important;
+    color: #99F8D0;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.count-name{
+  font-family: PlusjakartaSans !important;
+    color: #D0D4DE;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.count-box{
+    position: relative;
+    bottom: 1rem;
+}
+
+.lan-mob-title{
+  font-family: PlusjakartaSans !important;
+    color: #99F8D0;
+    font-size: 1rem;
+}
+
+.lan-mob-main{
+  font-family: PlusjakartaSans !important;
+  font-weight: 700;
+    font-size: 2.5rem;
+    color: #D0D4DE;
+}
+.lan-mob-des{
+  font-family: PlusjakartaSans !important;
+font-style: normal;
+font-weight: 400;
+font-size: 1rem;
+line-height: 28px;
+/* or 175% */
+
+
+/* Main white */
+
+color: #D0D4DE;
+}
+.mobile-title{
+  font-family: PlusjakartaSans !important;
+  font-weight: 700;
+    font-size: 2.5rem;
+  background: linear-gradient(88.49deg, #7afbe4 30.72%, #4a54f4 84.08%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+.lan-mob-des{
+    font-size: 16px;
+    color: #D0D4DE;
+    margin-top: 1rem;
+}
+
+.product-sec{
+    backdrop-filter: blur(34px);
+/* Note: backdrop-filter has minimal browser support */
+width: 100%;
+border-radius: 16px;
+display: flex;
+justify-content: center;
+border-radius: 20px;
+margin-bottom:3rem;
+}
+
+ 
+ 

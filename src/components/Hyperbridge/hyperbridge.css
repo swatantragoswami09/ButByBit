@@ -1,0 +1,219 @@
+.WholeContainer {}
+
+.Maincontainer {}
+
+.CrossChain {
+    font-size: 4.5rem;
+    color: #fff;
+    width: '20px';
+    font-family: PlusjakartaSans !important;
+}
+
+.SolanaSupport {
+
+    color: linear-gradient(to right, #4770FF 100%, #87F2E7 100%);
+    font-size: 0.7rem;
+    font-family: PlusjakartaSans !important;
+}
+
+.EnterApp {
+    background: #4770FF;
+    border-radius: 5px;
+    margin-right: 60px;
+    font-family: PlusjakartaSans !important;
+}
+
+.Descripation {
+    color: #D0D4DE;
+    font-size: 1rem;
+    font-family: PlusjakartaSans !important;
+}
+
+.IntegrateChain {
+    padding: 0rem 7rem 0rem 9rem;
+
+}
+
+.dollarvalue {
+    color: #46FFBC;
+    font-family: PlusjakartaSans !important;
+}
+
+.totalTitle {}
+
+.Numbertitle {}
+
+.IntegrateEVM {
+    background-image: url('../../assets/image/hyperbridge/IntegrateEVM.jpg');
+    background-repeat: no-repeat;
+    background-color: unset !important;
+}
+
+.SolanaSupport {
+    font-family: PlusjakartaSans !important;
+
+
+}
+
+.Leftside {
+    display: flex;
+    justify-content: center;
+
+}
+
+.ButtonandContent {
+    display: flex;
+    align-items: center;
+
+}
+
+.main-container {
+
+    background: #02040F;
+}
+
+.WaveBackground {
+    background-image: url('../../assets/image/hyperbridge/Wavebackground.svg');
+    width: 100px;
+    background-size: cover;
+
+}
+
+.Row2 {
+    background: #02040F,
+}
+
+.subContainer {
+    background-image: url('../../assets/image/hyperbridge/backgroundimge.jpg') !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.header {
+    
+    width: 509px;
+    height: 192px;
+    right: 695px;
+    top: 212px;
+
+    /* H1 */
+
+    font-family: PlusjakartaSans !important;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    /* or 133% */
+
+
+    /* Main white */
+
+    color: #D0D4DE;
+}
+
+.sub-header {
+
+    width: 572px;
+    height: 84px;
+    right: 632px;
+    top: 436px;
+    font-family: PlusjakartaSans !important;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #D0D4DE;
+    opacity: 0.7;
+}
+
+.solana {
+  
+    width: 353px;
+    height: 32px;
+    left: 600px;
+    top: 585px;
+
+    font-family: PlusjakartaSans !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 32px;
+    /* identical to box height, or 229% */
+
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+
+    background: linear-gradient(92.45deg, #4770FF 15.09%, #87F2E7 83.71%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.enter-app-button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 103px;
+    gap: 10px;
+
+ 
+    width: 247px;
+    height: 66px;
+    right: 957px;
+    top: 568px;
+
+    background: #4770FF;
+    box-shadow: -2px -19px 27px -11px rgba(20, 114, 255, 0.45);
+    border-radius: 12px;
+    cursor:pointer;
+}
+
+.enter-app-button {
+    width: 110px;
+    height: 32px;
+    font-family: PlusjakartaSans !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    color: #D0D4DE;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.hyperbridge-image {
+    box-sizing: border-box;
+
+    width: 441px;
+    height: 441px;
+    
+}
+
+.value-grid {
+    height: "500px";
+    background: linear-gradient(272.02deg, #46FFBC -0.03%, rgba(46, 67, 255, 0.65) 98.26%);
+    filter: blur(254px);
+}
+.headerDollar{
+    background: linear-gradient(92.45deg, #4770FF 15.09%, #87F2E7 83.71%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    font-family: PlusjakartaSans_bold !important;
+    font-size: 3rem !important;
+}
+.Subhead{
+    color:gray;
+    font-family: PlusjakartaSans !important;
+    font-size: 1rem !important;
+}
+.EvmWrapper{
+    background-color: red;
+    height:40px;
+    width:100px;
+}

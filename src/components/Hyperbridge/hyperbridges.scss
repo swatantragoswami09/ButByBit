@@ -1,0 +1,307 @@
+
+.WholeContainer{
+
+
+}
+
+.Maincontainer{
+  
+
+}
+.CrossChain{
+    font-size: 4.5rem;
+    color:#fff;
+    width:'20px';
+    font-family:PlusjakartaSans !important;
+}
+.SolanaSupport{
+
+    color: linear-gradient(to right, #4770FF 100%, #87F2E7 100%);
+        font-size:0.7rem;
+        font-family: PlusjakartaSans !important;
+}
+.EnterApp{
+    background: #4770FF;
+    border-radius:5px;
+    margin-right: 60px;
+    font-family: PlusjakartaSans !important;
+}
+.Descripation{
+    color:#D0D4DE;
+    font-size: 1rem;
+    font-family: PlusjakartaSans !important;
+}
+.IntegrateChain{
+    padding: 0rem 7rem 0rem 9rem;
+
+}
+.dollarvalue{
+   color: #46FFBC;
+   font-family: PlusjakartaSans !important;
+}
+.totalTitle{
+
+}
+.Numbertitle{
+
+}
+.wholewrapper{
+    padding:14px;
+}
+
+.IntegrateEVM{
+    background-image: url('../../assets/image/backgroundimage/Maskgroup.png');
+    background-repeat: no-repeat;
+    background-color: unset !important;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    background-size: cover;
+}
+.SolanaSupport{
+    font-family: PlusjakartaSans !important;
+
+
+}
+.Leftside{
+    display: flex;
+    justify-content: center;
+   
+
+
+}
+.Leftwarpper{
+    border-right: 2px solid gray ;
+}
+.ButtonandContent{
+display: flex;
+align-items: center;
+
+}
+
+.main-container{
+   
+    background:#02040F;
+}
+.WaveBackground{
+    background-image: url('../../assets/image/hyperbridge/Wavebackground.svg');
+    width:100px;
+    background-size: cover;
+
+}
+.Row2{
+    background: #02040F,
+}
+.subContainer{
+    background-image: url('../../assets/image/hyperbridge/backgroundimge.jpg') !important;
+    background-repeat:no-repeat ;
+    background-size: cover;
+}
+
+.hyper-brodeImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .doller-text {
+    font-family: PlusjakartaSans !important;
+    font-size: 30px;
+    font-weight: 700;
+  }
+  
+  .dollet-head {
+    font-family: PlusjakartaSans !important;
+    color: #d0d4de;
+    font-size: 20px;
+  }
+  
+  .dollet-head {
+    b {
+      font-size: 30px;
+      font-weight: 600;
+      color: #d0d4de;
+      padding-right: 5px;
+    }
+  }
+  
+  .solona-text {
+    font-size: 15px;
+    color: #d0d4de;
+  }
+  
+  .hyper-multi-block{
+      /* // background-image: url('../../assets/image/hyperbridge/IntegrateEVM.jpg'); */
+      background-image: url('../../assets/image/hyperbridge/Wavebackground.svg');
+  
+      background-repeat: no-repeat;
+      background-color: unset !important;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      /* // padding: 0 3rem; */
+      background-size: cover;
+      height: 60vh;
+      border-radius: 15px;
+  }
+  
+  .img-hyper{
+      display: flex;
+      justify-content: center;
+  }
+  
+  .desc-font{
+      color: #D0D4DE;
+      font-size: 0.8rem;
+      font-weight: 400;
+      font-family: PlusjakartaSans !important;
+  }
+  
+  .desc-title{
+      color: #D0D4DE;
+      font-size: 24px;
+      font-weight: 600;
+  }
+  
+  .overall{
+      font-weight: 600;
+      margin: 10px 0px 20px 0;
+  }
+  
+  .bullet-content{
+      display: grid;
+      grid-template-columns: 8% auto;
+      align-items: center;
+  }
+  
+  .bullet-title{
+      font-size: 13px;
+  }
+  
+  .ml-chain{
+      // height: 100px;
+  }
+  
+  .bullet-view-box{
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(54px);
+    border-radius: 20px;
+      width:100px;
+      background-size: cover;
+      padding: 2rem;
+      margin: 2rem 0 !important;
+  }
+  
+  .pro-card{
+      margin: 2rem 0;
+  }
+  
+  .last-desc{
+      color: #D0D4DE;
+      font-size: 24px;
+      font-weight: 600;
+      text-align: center;
+  }
+  
+  .l-content{
+      text-align: center;
+  }
+  
+  .margin-content{
+      margin: 2rem 0 !important;
+      padding: 35px;
+  }
+  
+  @media screen and (min-width: 200px) and (max-width: 650px) {
+      .desc-font{
+          font-size: 0.8rem;
+          font-family: PlusjakartaSans !important;
+      }
+      .desc-title{
+          font-size: 15px;
+      }
+      .last-desc{
+          font-size: 0.9rem;
+          font-family: PlusjakartaSans !important;
+font-style: normal;
+font-weight: 700;
+
+
+/* or 178% */
+
+text-align: center;
+
+/* Main white */
+
+color: #D0D4DE;
+
+      }
+      .each-product{
+          width: 100%;
+      }
+      .hyper-brodeImg{
+        width: 80%;
+        margin: 2rem 0;
+      }
+      .productionWrapper{
+          flex-wrap: wrap;
+      }
+      .doller-text{
+        font-size: 23px;
+      }
+      .Leftwarpper{
+        border: none;
+      }
+      .dollet-head{
+        font-size: 13px !important;
+      }
+      .doller-container{
+        text-align: center;
+      }
+      .solona-text {
+    font-size: 10px;  
+    }
+    .dollet-head b {
+        font-size: 20px;
+    }
+    .multi-block-chai .MuiGrid-item{
+        padding-left: 0px !important;
+    }
+    .bridge-gap{
+        padding: 10px !important;
+    }
+    .bullet-view-box{
+        padding: 13px;
+    }
+    .Headine1{
+      
+        font-family: PlusjakartaSans_bold;
+       
+       
+      
+        font-size: 2.5rem;
+     
+      
+    
+    }
+    .each-product{
+        margin: 10px;
+        background: #0C1120;
+        opacity: 0.9;
+        border: 1px solid #99F8D0;
+        box-shadow: -3px -9px 24px -9.5px #5DEEB1;
+        border-radius: 12px;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        width: 30%;
+    }
+    .productRight{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        padding:0px !important;
+    }
+  }

@@ -1,0 +1,167 @@
+.career-Container {
+  padding: 7rem 0 !important;
+}
+
+.career-header {
+  font-size: 35px;
+  color: #d0d4de;
+  text-align: center;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 200px) {
+  .career-header {
+    font-size: 20px !important;
+  }
+}
+
+.career-description {
+  text-align: center;
+  color: #d0d4de;
+  font-size: 15px;
+  margin-top: 10px !important;
+}
+
+.career-whole-container {
+  font-family: PlusjakartaSans;
+}
+
+.culture-container {
+  text-align: center;
+  display: grid;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cult-title {
+  color: #d0d4de;
+  font-size: 26px;
+}
+
+.cult-sub-title {
+  color: #d0d4de;
+  font-size: 15px;
+  margin: 1.5rem 0;
+}
+
+.culture-main {
+  width: 100%;
+  text-align: center;
+  // background: rgba(75, 191, 241, 0.43);
+}
+
+.base {
+  background: #00121d;
+}
+
+.car-left-list {
+  display: grid;
+  justify-content: flex-end;
+  align-items: flex-end;
+  position: relative;
+  bottom: 20px;
+}
+
+.car-list {
+  // height: 50px;
+  color: #d0d4de;
+}
+
+.car-right-list {
+  display: grid;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.car-listing {
+  padding: 2rem 0 !important;
+  position: relative;
+  margin-bottom: 3rem !important;
+}
+
+.career-profiles {
+  margin: 2rem 0 !important;
+}
+
+.team-head {
+  margin: 2rem 0 !important;
+}
+
+.car-team-footer {
+  color: #99f8d0;
+  font-size: 15px;
+  text-align: start;
+  padding-left: 3rem;
+}
+
+.car-position {
+  color: #d0d4de;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.location-show {
+  display: flex;
+  align-items: center;
+  width: auto;
+  color: #ffffff;
+  padding-right: 1rem;
+  margin: 1rem 0;
+  img {
+    margin-right: 10px;
+  }
+}
+
+.open-jobs {
+  padding: 1.5rem !important;
+  margin: 1rem 0 !important;
+}
+
+.rect_img {
+  height: 55vh;
+}
+
+.add-blur {
+  // position: relative !important;
+  // background: linear-gradient(272.02deg, #46FFBC -0.03%, rgba(46, 67, 255, 0.65) 98.26%);
+  // filter: background(400px);
+  // background: linear-gradient(
+  //   272.02deg,
+  //   #46ffbc -0.03%,
+  //   rgba(46, 67, 255, 0.65) 98.26%
+  // );
+  // filter: blur(254px);
+}
+
+.blur-bg {
+  // background-color: transparent;
+}
+
+@media screen and (min-width: 200px) and (max-width: 550px) {
+  .car-list {
+    font-size: 10px;
+  }
+  .location-show {
+    width: auto !important;
+  }
+  .location-show {
+    margin: 5px 0 !important;
+    font-size: 10px;
+  }
+  .btnTest {
+    margin: 1rem 0 !important;
+    text-align: center !important;
+    button {
+      .btnContainer {
+        padding: 5px 10px !important;
+      }
+    }
+  }
+  .team-head{
+    margin: 0px !important;
+  }
+}
+
+.profie{
+  margin: 10px !important;
+}

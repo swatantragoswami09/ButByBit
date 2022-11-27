@@ -1,0 +1,79 @@
+.Headertitle{
+    font-family: PlusjakartaSans !important;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 64px;
+    /* or 133% */
+    
+    margin-bottom: 23px;
+    /* Main white */
+    
+    color: #D0D4DE;
+    
+
+}
+.headerWrapper{
+   padding-top: 132px;
+    padding-left: 232px;
+   
+}
+.Descripation{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 28px;
+    /* or 175% */
+    font-family: PlusjakartaSans !important;
+    
+    /* Main white */
+    
+    color: #D0D4DE;
+    
+    opacity: 0.7;
+    margin-bottom: 50px;
+}
+.Row2Wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 140px 303px 113px 331px;
+    margin-bottom: 100px;
+}
+.Row2Content{
+    span{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 2rem;
+        line-height: 48px;
+        /* or 133% */
+        font-family: 'PlusjakartaSans';
+        text-align: center;
+        
+        /* Main gradient */
+        
+        background: linear-gradient(88.49deg, #7AFBE4 48.72%, #4A54F4 84.08%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+    }
+    font-style: normal;
+font-weight: 700;
+font-size: 2rem;
+line-height: 48px;
+/* or 133% */
+font-family: 'PlusjakartaSans';
+text-align: center;
+
+/* Main gradient */
+
+color: #fff;
+}
+.MobileWavebackground{
+  
+display: flex;
+justify-content: center;
+height: 50vh,
+}

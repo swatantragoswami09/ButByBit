@@ -1,0 +1,90 @@
+.stack-icon-view {
+  color: #ffffff;
+  font-size: 12px;
+}
+
+.multi-chain-card {
+  color: #d0d4de;
+  background: #182835;
+  border-radius: 20px;
+  height: fit-content;
+  margin: 10px !important;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+}
+
+.stack-icon-des {
+  font-size: 13px !important;
+  font-family: PlusjakartaSans;
+}
+
+.card-views {
+  color: #d0d4de;
+  background: #182835;
+  padding: 2rem !important;
+  border-radius: 20px;
+  height: fit-content;
+  margin: 10px !important;
+  height: 250px;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.hy-card {
+}
+
+.stack-header {
+  font-family: PlusjakartaSans;
+  color: #d0d4de;
+  font-size: 2rem;
+  display: flex;
+  font-weight: 600;
+  justify-content: center;
+  text-align: center !important;
+  padding: 2rem 0 !important;
+}
+
+.stack {
+  width: fit-content;
+}
+
+.card-header {
+  color: #d0d4de;
+  font-size: 1.5rem;
+}
+
+.bullet-list {
+  color: #d0d4de;
+  font-size: 13px;
+  flex-wrap: wrap;
+}
+
+ul li::before {
+  // content: "•";
+  // color: #99F8D0;
+}
+
+.stack-box {
+  background: #00000033;
+  margin: 1rem;
+}
+
+.inner-box {
+  background: rgba(255, 255, 255, 0.02);
+  backdrop-filter: blur(15px);
+  background-image: url("../../assets/image/hyperstack/Regtanglesstationary.svg");
+  height: 93vh;
+  padding: 2rem;
+}
+
+.hy-stack {
+  padding-left: 4rem;
+}
+
+.stack-count {
+  width: 100%;
+}

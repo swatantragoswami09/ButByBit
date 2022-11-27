@@ -1,0 +1,17 @@
+.MainContainer{
+  background-color: #02040F;
+  height:100vh;
+
+}
+.SubContainer{
+    background-image: url("../../assets/image/hyperbridge/Hyperbridgebackground.svg");
+    background-repeat: no-repeat;
+   
+}
+.Title{
+    color:rgb(61, 197, 61);
+
+}
+.Subname{
+    color:yellow;
+}
